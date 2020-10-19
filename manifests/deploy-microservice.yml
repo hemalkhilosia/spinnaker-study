@@ -8,7 +8,7 @@ metadata:
     name: sorry-squadron-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: sorry-squadron-microservice
